@@ -1,13 +1,17 @@
 let mysql = require("mysql");
 let pool = mysql.createPool({
-    host: 'localhost',
-    port: 3306,
-    user: 'root',
-    password: '1234',
-    database: 'gamezone',
-    connectionLimit: 100,
-    insecureAuth: true,
-    multipleStatements: true
-})
+  host: "sql5.freesqldatabase.com",
+  port: 3306,
+  user: "sql5502477",
+  password: "hCrcIIlGLt",
+  database: "sql5502477",
+  connectionLimit: 100,
+  insecureAuth: true,
+  multipleStatements: true,
+});
 
-module.exports = pool
+module.exports = pool;
+
+
+
+
