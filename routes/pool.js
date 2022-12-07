@@ -1,10 +1,10 @@
 let mysql = require("mysql");
 let pool = mysql.createPool({
-  host: "sql7.freesqldatabase.com",
+  host: "sql9.freesqldatabase.com",
   port: 3306,
-  user: "sql7575340",
-  password: "apanZt42Cb",
-  database: "sql7575340",
+  user: "sql9582526",
+  password: "jLJmB8FIU6",
+  database: "sql9582526",
   connectionLimit: 100,
   insecureAuth: true,
   multipleStatements: true,
